@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Participantes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container-cadastro">
+    <h1>Cadastro de Participantes</h1>
+
+   <p> <label for="numeroParticipante">Número do participante:</label> </p>
+    <input type="number" id="numeroParticipante"> 
+<p> <label for="nomeParticipante">Nome do participante:</label> </p>
+    <input type="text" id="nomeParticipante">
+  <p>  <button onclick="cadastrarParticipante()">Cadastrar</button> </p>
+ 
+    <label for="numeroExcluir">Número do participante a excluir:</label>
+  <input type="number" id="numeroExcluir">
+  <button onclick="excluirParticipante(document.getElementById('numeroExcluir').value)">Apagar Participante</button>
+    <div id="listaParticipantes"></div>   
+<p>
+    <button onclick="location.href='index.html'">Voltar para a página inicial</button>
+    <button onclick="verParticipantes()">Ver Participantes</button>
+</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

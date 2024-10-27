@@ -1,0 +1,67 @@
+
+
+body {
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-minimo-desenhado-a-mao_23-2148999828.jpg?t=st=1730008422~exp=1730012022~hmac=9b72b746cb5c3cd0233068474aa68d58a281e671d0b9a533882937709f0da9b2&w=996");
+    text-align: center;
+    margin: 50px auto;
+    background-size: cover;
+    color: rgb(0, 0, 0); /* Cor do texto */
+    text-align: center;
+    margin: 50px auto;
+    width: 400px; /* Largura do container */
+
+
+}
+
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    cursor: pointer;
+}
+
+/* Estilos específicos para a página index */
+.index-container {
+    align-content: center;
+    background-color: #cf2c2c; /* Cor de fundo suave */
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+    background-color: #9a539a42; /* Cor de fundo do container */
+}
+
+.index-container h1 {
+    font-size: 3rem;
+    margin-bottom: 90px;
+    color: #333333; /* Cor do título */
+}
+
+.container-cadastro {
+align-items: center;
+    padding: 30px;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+    background-color: #9a539a42; /* Cor de fundo do container */
+}
+
+.sorteio-container {
+    align-items: center;
+    padding: 80px;
+    width: 80%;
+    height: 50vh;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align:center; /* Centraliza o conteúdo dentro do container */
+    background-color: #9a539a42; /* Cor de fundo do container */
+    
+}
